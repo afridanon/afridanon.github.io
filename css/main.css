@@ -494,7 +494,7 @@ body{
         color:white;
         font-weight:600;
         float:right;
-        margin-right:23px;
+        margin-right:33px;
         margin-top:50px;
        
     }
@@ -517,6 +517,9 @@ body{
     }
 
     
+
+}
+@media(maX-width:320px){
 
 }
 
