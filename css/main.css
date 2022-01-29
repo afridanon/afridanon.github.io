@@ -25,7 +25,7 @@ body{
 }
 .bioname{
     position:relative;
-    bottom:30vh;
+    bottom:25vh;
     font-size:17px;
     font-weight:700;
     float:left;
@@ -34,7 +34,7 @@ body{
 }
 .biodevops{
     position:relative;
-    bottom:23vh;
+    bottom:20vh;
     float:left;
     margin-left:30px;
     font-size:30px;
@@ -44,7 +44,7 @@ body{
 }
 .biovill{
     position: relative;
-    bottom:18vh;
+    bottom:16vh;
     float:left;
     font-size:20px;
     margin-left:30px;
