@@ -11,19 +11,21 @@ body{
 .topabout {
     position: relative;
     text-align:center;
+    top:0;
 
 }
 #gradientimage{
-    position: relative;
+
+    position:relative;
 }
 .bio {
-    position: absolute;
+    position: relative;
     color:white;
     width:100%;
 }
 .bioname{
-    position: absolute;
-    bottom:32vh;
+    position:relative;
+    bottom:30vh;
     font-size:17px;
     font-weight:700;
     float:left;
@@ -31,8 +33,8 @@ body{
 
 }
 .biodevops{
-    position:absolute;
-    bottom:17vh;
+    position:relative;
+    bottom:23vh;
     float:left;
     margin-left:30px;
     font-size:30px;
@@ -42,9 +44,9 @@ body{
 }
 .biovill{
     position: relative;
-    bottom:12vh;
+    bottom:18vh;
     float:left;
-    font-size:18px;
+    font-size:20px;
     margin-left:30px;
     font-weight:500;
 }
