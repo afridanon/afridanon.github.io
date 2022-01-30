@@ -577,7 +577,7 @@ body{
 
 #visitors{
     float:left;
-    margin-top:20px;
+    margin-top:50px;
     font-size:20px;
     color:white;
     margin-left:4vh;
@@ -591,10 +591,10 @@ body{
 }
 #numberholder{
     color:#0fb;
-    margin-right:4%;
+    margin-right:10%;
     float: right;
     font-size:20px;
-    margin-top:20px;
+    margin-top:50px;
     font-weight:700;
     border-bottom:2px solid;
     padding-bottom:5px;
