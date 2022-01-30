@@ -56,7 +56,7 @@
         </div>
         <div id="CounterVisitor" class="viewcount">
             <label id="visitors"><a>Number Of Visitors<span> :</span> </a></label>
-            <label id="numberholder"></label>
+            <label id="numberholder">1453</label>
         </div>
         <div class="imagediv">
             <img src="images/my.jpg" width="90%">
@@ -184,17 +184,5 @@
 
  
 </body>
-<script>
-    var n = localStorage.getItem('on_load_counter');
-    
-    if (n === null) {
-        n = 0;
-    }
-    
-    n++;
-    
-    localStorage.setItem("on_load_counter", n);
-    
-    document.getElementById('numberholder').innerHTML =n;
-    </script>
+
 </html>
