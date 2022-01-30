@@ -1,0 +1,602 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    list-style:none;
+    
+}
+body{
+    color:red;
+    background:#212121;
+
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.menudiv label{
+    position: absolute;
+    text-align:center;
+    width:44px;
+    height:42px;
+    color:#0fb;
+    top:3vh;
+    right:10px;
+    font-size:25px;
+}
+#menuicon{
+    float:right;
+    margin-right:17px;
+    margin-top:10px;
+}
+#myCheck{
+    display:none;
+
+}
+.sidenav{
+    position: absolute;
+    display:none;
+    color: #fff;
+    top:0;
+    width:83%;
+    height:100%;
+    background:black;
+    text-align: center;
+}
+.homeside a{
+    border-bottom: 3px solid ;
+    padding-bottom: 5px;
+}
+.sidenav li{
+    margin-top:40px;
+
+}
+.sidenav li a{
+    color:white;
+    font-family: sans-serif;
+    font-size:20px;
+
+}
+
+.sidesocialicons{
+    width:100%;
+    height:40vh;
+    text-align: center;
+    float:left;
+    margin-top:40px;
+}
+.sidesocialicons ul a{
+    line-height:50px;
+    height:50px;
+    width:50px;
+    margin-top:20px;
+    margin-left:13px;
+    margin-right:13px;
+    font-size:30px;
+    border-radius:50%;
+    color:#fff;
+    background:#5a5a5a;
+}
+.sidesocialicons ul a:active,.sidesocialicons ul a:hover{
+    color:greenyellow;    
+}
+.copyright{
+    width:100%;
+    height:40px;
+    position: absolute;
+    bottom:20px;
+}
+.copyright label{
+    font-weight:100;
+    font-size: larger;
+    opacity:0.7;
+}
+.toplabel{
+    float:left;
+    margin-top:-11vh;
+    width:70%;
+    color:white;
+    float:left;
+    margin-left:30px;
+}
+.toplabel {
+    margin-left:15px;
+    font-size:22px;
+}
+.dollors{
+    float:right;
+    margin-right:5vh;
+    font-weight:700;
+    
+}
+
+.biolabelsdiv{
+    text-align:center;
+    color:white;
+    margin-top:15vh;
+}
+.hitherebio{
+
+}
+.afridbio{
+    margin-top:10px;
+}
+.designerlabel{
+    margin-top:40px;
+    padding-left:90px;
+    padding-right:90px;
+    color:#0fb;
+    font-family: sans-serif;
+}
+.infobio{
+    margin-top:10px;
+    padding:40px;
+    font-size:17px;
+    font-weight:600;
+
+}
+.hireme{
+    background: #0fb;
+    width:25vh;
+    height:40px;
+    border:0px ;
+    border-radius:20px;
+    font-size:16px;
+
+}
+.imagediv{
+    text-align: center;
+    margin-top:30vh;
+}
+.imagediv img{
+    border-top:10px solid #0fb;
+    border-left:10px solid #0fb;
+    padding-left:10px;
+    padding-top:10px;
+
+    
+    
+}
+.aboutmediv{
+    text-align: center;
+    margin-top:5vh;
+}
+.aboutmediv label{
+    color:#0fb;
+    font-size:16px;
+    font-weight: 500;
+
+}
+.lineside{
+    display: inline-block;
+    background: #0fb;
+    width:3rem;
+    height:0.2rem;
+    margin-left:10px;
+    border-radius:10px;
+}
+.aboutmediv h4{
+    margin-top:3vh;
+    color:white;
+    font-size:27px;
+}
+
+.aboutmediv p{
+    opacity: 0.9;
+    font-size:15px;
+    color:white;
+    font-weight:500;
+
+    padding-left:10px;
+    padding-right:10px;
+}
+.toppara{
+    float:left;
+    margin-top:6vh;
+}
+.middlepara{
+    float: left;
+    margin-top:2vh;
+}
+.bottompara{
+    float: left;
+    margin-top:2vh;
+}
+.downloadcv{
+    cursor: pointer;
+    margin-top:7vh;
+    background: #0fb;
+    width:30vh;
+    height:50px;
+    border:0px ;
+    border-radius:30px;
+    font-size:18px;
+
+}
+.whatidodiv{
+    text-align: center;
+    margin-top: 10vh;
+}
+.whatidodiv label{
+    color:#0fb;
+    font-weight:500;
+    font-size:17px;
+}
+.whatidodiv h4{
+    margin-top:5vh;
+    color:white;
+    font-size:25px;
+}
+.reactdiv{
+    margin-left: 5%;
+    text-align: center;
+    background:#2b2b2b;
+    width:90%;
+    border-radius:10px;
+    height:45vh;
+    margin-top: 10vh;
+}
+.reactdiv label{
+
+    
+    background:#2e445a;
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    float:left;
+    margin-left:20px;
+    margin-top: 20px;
+    
+}
+.reactdiv img{
+    margin-top:18px;
+}
+.reactdiv h4{
+    border-bottom:3px solid white;
+    padding-bottom:5px;
+    color:white;
+    float:left;
+    margin-top:19vh;
+    margin-left:-80px;
+}
+.reactdiv p{
+    color:white;
+    margin-top:3vh;
+    float:left;
+    font-size:15px;
+    font-weight:600;
+
+    margin-left:20px;
+    margin-right: 40px;
+
+}
+.webdevdev{
+    margin-left: 5%;
+    text-align: center;
+    background:#2b2b2b;
+    width:90%;
+    border-radius:10px;
+    height:45vh;
+    margin-top: 10vh;
+}
+.webdevdev label{
+
+    
+    background:#6b304c;
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    float:left;
+    margin-left:20px;
+    margin-top: 20px;
+}
+.webdevdev img{
+    margin-top:20px;
+}
+.webdevdev h4{
+    color:white;
+    float:left;
+    margin-top:19vh;
+    margin-left:-80px;
+    border-bottom:3px solid white;
+    padding-bottom:5px;
+}
+.webdevdev p{
+    color:white;
+    margin-top:3vh;
+    float:left;
+    font-size:16px;
+    font-weight:600;
+
+    margin-left:20px;
+    margin-right: 20px;
+
+}
+.digitalweb{
+    margin-left: 5%;
+    text-align: center;
+    background:#2b2b2b;
+    width:90%;
+    border-radius:10px;
+    height:45vh;
+    margin-top: 10vh;
+
+}
+.digitalweb label{
+
+    
+    background:#3c2d55;
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    float:left;
+    margin-left:20px;
+    margin-top: 20px;
+}
+.digitalweb img{
+    margin-top:20px;
+}
+.digitalweb h4{
+    color:white;
+    float:left;
+    margin-top:19vh;
+    margin-left:-80px;
+    border-bottom:3px solid white;
+    padding-bottom:5px;
+}
+.digitalweb p{
+    color:white;
+    margin-top:3vh;
+    float:left;
+    font-size:16px;
+    font-weight:600;
+
+    margin-left:20px;
+    margin-right: 20px;
+
+}
+
+.workflowdiv{
+    text-align: center;
+    margin-top: 10vh;
+}
+.workflowdiv label{
+    color:#0fb;
+    font-weight:500;
+    font-size:17px;
+}
+.workflowdiv h4{
+    margin-top:5vh;
+    color:white;
+    font-size:25px;
+}
+.discover{
+    margin-left: 22.5%;
+    text-align: center;
+    background:#2b2b2b;
+    width:55%;
+    border-radius:10px;
+    height:30vh;
+    margin-top: 10vh;
+    color:white;
+
+}
+.discover img{
+    float:left;
+    margin-left:15px;
+    margin-top:20px;
+}
+.discover h4{
+    font-size:20px;
+    float:left;
+    margin-left:-20px;
+    margin-top:10vh;
+}
+.discover p{
+    float:left;
+    margin-left:10px;
+    margin-right:20px;
+    margin-top:2vh;
+    font-weight:600;
+}
+.define{
+    margin-left: 22.5%;
+    text-align: center;
+    background:#2b2b2b;
+    width:55%;
+    border-radius:10px;
+    height:30vh;
+    margin-top: 5vh;
+    color:white;
+
+}
+.define img{
+    float:left;
+    margin-left:15px;
+    margin-top:20px;
+}
+.define h4{
+    font-size:20px;
+    float:left;
+    margin-left:-20px;
+    margin-top:10vh;
+}
+.define p{
+    float:left;
+    margin-left:10px;
+    margin-right:20px;
+    margin-top:2vh;
+    font-weight:600;
+}
+
+.ideate{
+    margin-left: 22.5%;
+    text-align: center;
+    background:#2b2b2b;
+    width:55%;
+    border-radius:10px;
+    height:30vh;
+    margin-top: 5vh;
+    color:white;
+
+}
+.ideate img{
+    float:left;
+    margin-left:15px;
+    margin-top:20px;
+}
+.ideate h4{
+    font-size:20px;
+    float:left;
+    margin-left:-20px;
+    margin-top:10vh;
+}
+.ideate p{
+    float:left;
+    margin-left:10px;
+    margin-right:20px;
+    margin-top:2vh;
+    font-weight:600;
+}
+
+.prototype{
+    margin-left: 22.5%;
+    text-align: center;
+    background:#2b2b2b;
+    width:55%;
+    border-radius:10px;
+    height:30vh;
+    margin-top: 5vh;
+    color:white;
+
+}
+.prototype img{
+    float:left;
+    margin-left:15px;
+    margin-top:20px;
+}
+.prototype h4{
+    font-size:20px;
+    float:left;
+    margin-left:-20px;
+    margin-top:10vh;
+}
+.prototype p{
+    float:left;
+    margin-left:10px;
+    margin-right:20px;
+    margin-top:2vh;
+    font-weight:600;
+}
+
+.implement{
+    margin-left: 22.5%;
+    text-align: center;
+    background:#2b2b2b;
+    width:55%;
+    border-radius:10px;
+    height:30vh;
+    margin-top: 5vh;
+    color:white;
+
+}
+.implement img{
+    float:left;
+    margin-left:15px;
+    margin-top:20px;
+}
+.implement h4{
+    font-size:20px;
+    float:left;
+    margin-left:-20px;
+    margin-top:10vh;
+}
+.implement p{
+    float:left;
+    margin-left:10px;
+    margin-right:20px;
+    margin-top:2vh;
+    font-weight:600;
+}
+.myprojectdiv{
+    text-align: center;
+    margin-top: 10vh;
+}
+.myprojectdiv label{
+    color:#0fb;
+    font-weight:500;
+    font-size:17px;
+}
+.myprojectdiv h4{
+    margin-top:5vh;
+    color:white;
+    font-size:25px;
+}
+.imgalls{
+    text-align:center;
+}
+.imgalls img{
+    margin-top: 5vh;
+    border-radius:10px;
+}
+
+.bottomdivbars{
+    margin-top:10vh;
+    background: black;
+    width:95%;
+    height:25vh;
+    margin-left:2.5%;
+    border-radius:10px;
+    text-align: center;
+
+}
+.bottomdivbars label{
+    color:white;
+    font-size:20px;
+    border-bottom:3px solid;
+    padding:5px;
+}
+.bottomdivbars ul{
+    float:left;
+    margin-left:5vh;
+}
+.bottomdivbars ul a{
+    color:white;
+    margin-left:5vh;
+    font-size:25px;
+    margin-top:5vh;
+}
+.bottomdivbars ul a:active,.bottomdivbars ul a:hover{
+    color:#0fb;
+}
+.bottomdivbars p{
+    float:left;
+    margin-top:4vh;
+    color:white;
+    margin-left:13vh;
+    font-weight:100;
+    opacity: 0.7;
+}
+
+#visitors{
+    float:left;
+    margin-top:20px;
+    font-size:20px;
+    color:white;
+    margin-left:4vh;
+    word-spacing:5px;
+    font-weight:600;
+    border-bottom:2px solid;
+    padding-bottom:5px;
+}
+.viewcount label span{
+    margin-left:3px;
+}
+#numberholder{
+    color:#0fb;
+    margin-right:4%;
+    float: right;
+    font-size:20px;
+    margin-top:20px;
+    font-weight:700;
+    border-bottom:2px solid;
+    padding-bottom:5px;
+    
+}
