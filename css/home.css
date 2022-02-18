@@ -566,7 +566,7 @@ body{
 .bottomdivbars ul a:active,.bottomdivbars ul a:hover{
     color:#0fb;
 }
-.bottomdivbars p{
+.bottomdivbars h4{
     float:left;
     margin-top:4vh;
     color:white;
