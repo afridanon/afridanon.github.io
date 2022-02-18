@@ -1,0 +1,274 @@
+.menudiv label{
+    font-size:35px;
+}
+#menuicon{
+    margin-right:27px;
+}
+.sidenav{
+    width:20%;
+}
+.sidenav li a:active,.sidenav li a:hover{
+    color: aqua;
+}
+.brandname {
+    font-weight:700;
+    font-size:33px;
+    color:#0fb;
+    border-bottom:2px solid #fff;
+    padding-bottom:5px;
+
+}
+.dollors{
+    margin-right:40vh;
+}
+.infobio{
+
+    font-size:22px;
+
+
+}
+.afridbio{
+    margin-top:15px;
+}
+.infobio{
+    margin-top:10vh;
+}
+.hireme{
+    margin-top:10vh;
+    background: #0fb;
+    width:35vh;
+    height:45px;
+    border:0px ;
+    border-radius:20px;
+    font-size:20px;
+
+}
+#visitors{
+    margin-left:35%;
+
+}
+#numberholder{
+    margin-right:37%;
+
+}
+.imagediv{
+    text-align: center;
+    margin-top:30vh;
+}
+.imagediv img{
+    width:500px;
+    height:700px;
+  
+}
+.aboutmediv{
+    margin-top:10vh;
+}
+.aboutmediv label{
+    font-size:36px; 
+}
+.aboutmediv p{
+    font-weight:300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:25px;
+    padding-left:40px;
+    padding-right:40px;
+}
+.downloadcv{
+    cursor: pointer;
+    margin-top:7vh;
+    background: #0fb;
+    width:60vh;
+    height:70px;
+    border:0px ;
+    border-radius:30px;
+    font-size:28px;
+
+}
+.whatidodiv label{
+    font-size:27px;
+}
+
+.reactdiv h4{
+    font-size:22px;
+    margin-top:3vh;
+    float:left;
+    margin-left:30%;
+}
+.reactdiv p{
+    margin-top:8vh;
+    font-size:20px;
+
+}
+.webdevdev h4{
+    font-size:22px;
+    margin-top:3vh;
+    float:left;
+    margin-left:30%;
+}
+.webdevdev p{
+    margin-top:8vh;
+    font-size:20px;
+
+}
+.digitalweb h4{
+    font-size:22px;
+    margin-top:3vh;
+    float:left;
+    margin-left:30%;
+}
+.digitalweb p{
+    margin-top:8vh;
+    font-size:20px;
+
+}
+.workflowdiv label{
+    color:#0fb;
+    font-weight:500;
+    font-size:27px;
+}
+.discover h4{
+    font-size:20px;
+    float: left;
+    font-size:25px;
+    margin-left:30%;
+    margin-top:2vh;
+}
+.discover img{
+    width:70px;
+    height:70px;
+
+}
+.discover p{
+    float:left;
+    font-size:22px;
+    margin-left:5%;
+    margin-top:8vh;
+
+}
+.define h4{
+    font-size:20px;
+    float: left;
+    font-size:25px;
+    margin-left:30%;
+    margin-top:2vh;
+}
+.define img{
+    width:70px;
+    height:70px;
+
+}
+.define p{
+    float:left;
+    font-size:22px;
+    margin-left:5%;
+    margin-top:8vh;
+}
+.ideate img{
+    width:70px;
+    height:70px;
+
+}
+.ideate h4{
+    font-size:20px;
+    float: left;
+    font-size:25px;
+    margin-left:30%;
+    margin-top:2vh;
+}
+.ideate p{
+    float:left;
+    font-size:22px;
+    margin-left:5%;
+    margin-top:8vh;
+}
+.prototype h4{
+    font-size:20px;
+    float: left;
+    font-size:25px;
+    margin-left:30%;
+    margin-top:2vh;
+}
+.prototype img{
+    width:70px;
+    height:70px;
+
+}
+.prototype p{
+    float:left;
+    font-size:22px;
+    margin-left:5%;
+    margin-top:8vh;
+}
+.implement h4{
+    font-size:20px;
+    float: left;
+    font-size:25px;
+    margin-left:30%;
+    margin-top:2vh;
+}
+.implement img{
+    width:70px;
+    height:70px;
+
+}
+.implement p{
+    float:left;
+    font-size:22px;
+    margin-left:5%;
+    margin-top:8vh;
+}
+.myprojectdiv label{
+    font-size:27px;
+}
+.imgalls{
+    text-align:center;
+
+}
+.imgalls img{
+    float:left;
+    margin-left:30%;
+
+    width:700px;
+    height:700px;
+    
+
+}
+.bottomdivbars{
+    position: absolute;
+    margin-top:99cm;
+    width:99%;
+    float:left;
+    margin-left:7px;
+}
+.bottomdivbars label{
+    float:left;
+    margin-left:48%;
+    color:white;
+    font-size:25px;
+    border-bottom:3px solid;
+    padding:5px;
+}
+.bottomdivbars ul{
+    float:right;
+    margin-right:35%;
+}
+.bottomdivbars ul a{
+    float:right;
+    margin-right:5vh;
+    color:white;
+    font-size:30px;
+    margin-top:7vh;
+
+}
+.bottomdivbars ul a:active,.bottomdivbars ul a:hover{
+    color:#0fb;
+}
+.bottomdivbars h4{
+    font-size:18px;
+    float:right;
+    margin-top:16vh;
+    color:white;
+    margin-right:-40vh;
+    font-weight:100;
+    opacity: 0.7;
+}
