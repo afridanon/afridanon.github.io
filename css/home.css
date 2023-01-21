@@ -236,14 +236,15 @@ body{
     margin-top:2vh;
 }
 .downloadcv{
-    cursor: pointer;
-    margin-top:7vh;
+    
     background: #0fb;
-    width:30vh;
-    height:50px;
+    width:25vh;
+    height:40px;
     border:0px ;
-    border-radius:30px;
-    font-size:18px;
+    border-radius:20px;
+    font-size:16px;
+    
+}
 
 }
 .whatidodiv{
